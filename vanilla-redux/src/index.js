@@ -8,8 +8,9 @@ const number = document.querySelector("span");
 
 // const store = createStore(reducer);
 
-const countModifier = () => {
-  return "hello";
+// state = 0 : 초기값 설정
+const countModifier = (state = 0) => {
+  return state;
 };
 
 const countStore = createStore(countModifier);
