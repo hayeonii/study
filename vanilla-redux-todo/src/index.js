@@ -21,11 +21,13 @@ const reducer = (state = [], action) => {
     case ADD_TODO:
       // 상태를 수정하는 것이 아닌 새로운 obejct를 return
       // 새로운 state를 create하고 새로운 state를 return
-      return [{ text: action.text, id: Date.now() }, ...state];
+      const newTodo = { text: action.text, id: Date.now() };
+      return [newTodo, ...state];
     case DELETE_TODO:
       // splice()가 아닌 filter() 메소드를 쓴 이유?
       // filter()는 새로운 배열을 반환시켜 주기 때문!
-      return state.filter((toDo) => toDo.id !== action.id);
+      const deleted = state.filter((toDo) => toDo.id !== action.id);
+      return deleted;
     default:
       return state;
   }
