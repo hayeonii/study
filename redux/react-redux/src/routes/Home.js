@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { connect } from "react-redux";
 
-export default function Home() {
+function Home({ toDos }) {
+  console.log(toDos);
   const [text, setText] = useState("");
 
   function onChange(e) {
@@ -24,3 +26,14 @@ export default function Home() {
     </>
   );
 }
+
+// store로부터 state를 가져다 줌
+// redux state로부터 home(component)에 props로써 전달
+function mapStateToProps(state) {
+  // console.log(state, ownProps);
+  // return { hello: true };
+  return { toDos: state };
+}
+
+// getCurrentState = state, Home = component의 props
+export default connect(mapStateToProps)(Home);
