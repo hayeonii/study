@@ -11,4 +11,5 @@
 
 ## TypeScript
 
-- [타입스크립트 설치/세팅 & 필수 문법 정리(변수, 배열, 객체, 함수, Union Type, Type alias)](https://github.com/hayeonii/study/pull/5)
+- [필수 문법 정리(변수, 배열, 객체, 함수, Union Type, Type alias)](https://github.com/hayeonii/study/pull/5)
+- [기본 타입 정리(Primitive Type)](https://github.com/hayeonii/study/pull/6)
