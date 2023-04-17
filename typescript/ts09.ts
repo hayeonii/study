@@ -1,0 +1,39 @@
+let 제목 = document.querySelector("#title");
+let 제목2 = document.querySelector("#title") as Element;
+제목2.innerHTML = "반갑다";
+
+// if(제목 !== null){
+//   제목.innerHTML='반가워요'
+// }
+
+if (제목 instanceof Element) {
+  제목.innerHTML = "반가워요";
+}
+
+let 제목3 = document.querySelector("#title");
+
+if (제목3?.innerHTML !== undefined) {
+  제목3.innerHTML = "ㅎㅇ";
+}
+
+let 링크 = document.querySelector(".link");
+
+if (링크 instanceof HTMLAnchorElement) {
+  링크.href = "https://kakao.com";
+}
+
+// 문제1)
+let img = document.querySelector("#image");
+
+if (img instanceof HTMLImageElement) {
+  img.src = "new.jpg";
+}
+
+// 문제2)
+let link = document.querySelectorAll(".naver");
+
+link.forEach((link) => {
+  if (link instanceof HTMLAnchorElement) {
+    link.href = "https://kakao.com";
+  }
+});
