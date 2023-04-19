@@ -52,3 +52,10 @@ Skills.skill = "ts"; // 이 이후로 오는 것들은 ts 전문가입니다로 
 
 let 연두2 = new Skills();
 console.log(연두2);
+
+// namespace 문법
+namespace 네임스페이스 {
+  export type Name = string | number;
+}
+
+let 변수: 네임스페이스.Name = "kim";
