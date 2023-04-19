@@ -71,3 +71,4 @@ console.log(연두); // js 전문가입니다
 Skills.skill = "ts"; // 이 이후로 오는 것들은 ts 전문가입니다로 출력됨
 var 연두2 = new Skills();
 console.log(연두2);
+var 변수 = "kim";
