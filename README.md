@@ -21,3 +21,5 @@
 - [함수와 오브젝트 안에서의 타입 지정](https://github.com/hayeonii/study/pull/12)
 - [interface](https://github.com/hayeonii/study/pull/14)
 - [타입스크립트를 이용해 HTML을 조작할 때 주의할 점](https://github.com/hayeonii/study/pull/13)
+- [타입스크립트의 객체지향문법(Public, Private, Protected, Static)](https://github.com/hayeonii/study/pull/16)
+- [namespace](https://github.com/hayeonii/study/pull/17)
