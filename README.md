@@ -23,3 +23,5 @@
 - [타입스크립트를 이용해 HTML을 조작할 때 주의할 점](https://github.com/hayeonii/study/pull/13)
 - [타입스크립트의 객체지향문법(Public, Private, Protected, Static)](https://github.com/hayeonii/study/pull/16)
 - [namespace](https://github.com/hayeonii/study/pull/17)
+- [제네릭(Generic)](https://github.com/hayeonii/study/pull/18)
+- [튜플 타입으로 타입 지정](https://github.com/hayeonii/study/pull/19)
