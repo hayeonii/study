@@ -4,6 +4,7 @@ import "./index.css";
 
 import reportWebVitals from "./reportWebVitals";
 import GuGuDan from "./GuGuDan";
+import WordRelay from "./WordRelay";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -11,6 +12,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <GuGuDan />
+    <WordRelay />
   </React.StrictMode>
 );
 
