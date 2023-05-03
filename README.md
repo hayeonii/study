@@ -2,6 +2,10 @@
 
 각종 공부 내용을 기록합니다 ✏️
 
+## React
+
+- [리액트의 생명 주기(Life Cycle)](https://github.com/July249/get_a_job/blob/hayeon/Web/React/React%EC%9D%98%20LifeCycle.md)
+
 ## Redux
 
 - [Redux 기초(store, reducer, action)](https://github.com/hayeonii/study/pull/1)
